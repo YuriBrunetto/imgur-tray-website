@@ -1,8 +1,1 @@
-body {
-  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-}
-
-h1, h2, h3, h4, h5, p {
-  margin: 0;
-}
+*{box-sizing:border-box}body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased}h1,h2,h3,h4,h5,p,figure{margin:0}a{color:#1BB76E;text-decoration:none}.header{display:flex;left:0;justify-content:center;padding:64px 0 40px;position:absolute;top:0;width:100%;z-index:10}.header .logo{height:64px;width:206px}.header .logo img{width:100%}.upper-bar{padding-top:168px;position:relative}.upper-bar::before{background-color:#141518;content:'';height:80vh;left:0;position:absolute;top:0;width:100%;z-index:1}.upper-bar .common-limiter{position:relative;z-index:2}.upper-bar .subtitle{color:rgba(242,242,242,0.7);font-weight:300;line-height:150%;text-align:center}.upper-bar .screenshot{background:url(../img/screenshot@2x.png) no-repeat center;background-size:300px 450px;border-radius:4px;box-shadow:0 20px 40px rgba(0,0,0,0.3);height:450px;left:50%;margin:24px 0 32px;overflow:hidden;position:relative;transform:translateX(-50%);width:300px}.upper-bar .get-imgur-tray{align-items:center;display:flex;flex-direction:column}.upper-bar .get-imgur-tray a{background-color:#1BB76E;border-radius:24px;color:#fff;font-size:14px;font-weight:bold;height:48px;line-height:48px;padding:0 40px;text-transform:uppercase;transition:transform .05s}.upper-bar .get-imgur-tray a:active{transform:scale(0.97)}.upper-bar .get-imgur-tray p{color:rgba(20,21,24,0.38);font-size:12px;margin-top:16px}.content.common-limiter{margin-top:64px}.content.common-limiter .texts{padding:0 4px}.content.common-limiter .texts h3{color:#141518;font-weight:500;margin:24px 0 6px}.content.common-limiter .texts p{color:rgba(20,21,24,0.54)}.footer{color:rgba(20,21,24,0.38);font-size:12px;text-align:center;margin-top:64px;padding:24px}.common-limiter{margin:0 auto;max-width:960px;padding:0 16px}

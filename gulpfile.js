@@ -11,9 +11,9 @@ gulp.task('serve', ['sass'], () => {
 })
 
 gulp.task('sass', () => {
-  return gulp.src('./scss/*.scss')
+  return gulp.src('./scss/main.scss')
     .pipe(autoprefixer())
-    .pipe(sass({ outputStyle: 'expanded' }).on('error', sass.logError))
+    .pipe(sass({ outputStyle: 'compressed' }).on('error', sass.logError))
     .pipe(gulp.dest('./css'))
     .pipe(browserSync.stream())
 })
