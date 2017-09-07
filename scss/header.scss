@@ -1,19 +1,23 @@
 .header {
-  display: flex;
   left: 0;
-  justify-content: center;
-  padding: 64px 0 40px;
   position: absolute;
   top: 0;
   width: 100%;
   z-index: 10;
 
-  .logo {
-    height: 64px;
-    width: 206px;
+  .wrapper {
+    display: flex;
+    justify-content: center;
+    padding: 64px 0 40px;
+    width: 100%;
 
-    img {
-      width: 100%;
+    .logo {
+      height: 64px;
+      width: 206px;
+
+      img {
+        width: 100%;
+      }
     }
   }
 }
