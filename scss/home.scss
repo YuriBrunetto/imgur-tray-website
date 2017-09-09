@@ -60,11 +60,49 @@
          transform: scale(.97);
        }
      }
+
      p {
        color: rgba($dark, .38);
        font-size: 12px;
        margin-top: 16px;
      }
+  }
+
+  @media (min-width: 720px) {
+    &::before {
+      height: 400px;
+    }
+
+    .common-limiter {
+      display: flex;
+      flex-direction: column;
+
+      .subtitle, .get-imgur-tray {
+        width: 50%;
+
+        &.subtitle {
+          text-align: left;
+          margin-bottom: 24px;
+        }
+
+        &.get-imgur-tray {
+          flex-direction: row;
+
+          p {
+            color: rgba(255,255,255,.38);
+            margin: 0 0 0 16px;
+          }
+        }
+      }
+
+      .screenshot {
+        left: auto;
+        margin: 0;
+        position: absolute;
+        right: 24px;
+        transform: translateX(0);
+      }
+    }
   }
 }
 
@@ -81,6 +119,16 @@
     }
     p {
       color: $text-dark;
+    }
+  }
+
+  @media (min-width: 720px) {
+    margin-top: 160px;
+
+    .texts {
+      line-height: 150%;
+      padding: 0;
+      width: 50%;
     }
   }
 }
