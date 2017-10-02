@@ -88,6 +88,14 @@
         &.get-imgur-tray {
           flex-direction: row;
 
+          a {
+            transition: all .3s ease-in-out;
+  
+            &:hover {
+              box-shadow: 0 4px 12px rgba(0,0,0,.3);
+            }
+          }
+
           p {
             color: rgba(255,255,255,.38);
             margin: 0 0 0 16px;
