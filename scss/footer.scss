@@ -4,4 +4,8 @@
   text-align: center;
   margin-top: 64px;
   padding: 24px;
+
+  @media (min-width: 960px) {
+    margin-top: 32px;
+  }
 }
